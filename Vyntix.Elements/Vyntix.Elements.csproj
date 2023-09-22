@@ -1,0 +1,33 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net7.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+	<GeneratePackageOnBuild>True</GeneratePackageOnBuild>
+	<IncludeSymbols>true</IncludeSymbols>
+	<SymbolPackageFormat>snupkg</SymbolPackageFormat>
+	<Authors>Leader Analytics</Authors>
+	<Company>Leader Analytics</Company>
+	<Product>Vyntix.Elements</Product>
+	<Description>Objects common to Vyntix and one or more data providers</Description>
+	<Copyright>2023 Leader Analytics</Copyright>
+	<PackageProjectUrl>https://github.com/leaderanalytics/Vyntix.Elements</PackageProjectUrl>
+	<PackageIcon>VyntixLogo.png</PackageIcon>
+	<RepositoryUrl>https://github.com/leaderanalytics/Vyntix.Elements</RepositoryUrl>
+	<RepositoryType>git</RepositoryType>
+	<PackageTags>Leader Analytics LeaderAnalytics Vyntix FRED ALFRED vintage client FredClient economic economic-data economicdata</PackageTags>
+	<PackageReleaseNotes>See Repository</PackageReleaseNotes>
+	<PackageId>LeaderAnalytics.Vyntix.Elements</PackageId>
+	<PackageLicenseFile>LICENSE.md</PackageLicenseFile>  
+  </PropertyGroup>
+	<PropertyGroup>
+		<RootNamespace>LeaderAnalytics.Vyntix.Elements</RootNamespace>
+		<AssemblyName>LeaderAnalytics.Vyntix.Elements</AssemblyName>
+	</PropertyGroup>
+
+	<ItemGroup>
+		<None Include="..\VyntixLogo.png" Pack="true" PackagePath="\" />
+		<None Include="..\LICENSE.md" Pack="true" PackagePath="\" />
+	</ItemGroup>
+</Project>
