@@ -5,10 +5,10 @@ public interface IDataProvider
     int ID { get; set; }
     string Name { get; set; }
     int SystemID { get; set; }
-    string DownloadURI { get; set; }
-    string Login { get; set; }
+    string Setting1 { get; set; }
+    string Setting2 { get; set; }
     string Password { get; set; }
-    DateTime? LastDownload { get; set; }
+    DateTime? LastDownloadDate { get; set; }
     DownloadResult LastDownloadResult { get; set; }
     int UserID { get; set; }
 }
